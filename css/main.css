@@ -1,0 +1,223 @@
+/*********************************/
+/*         Shared Styles         */
+/*********************************/
+*,
+*:before,
+*:after {
+   box-sizing: border-box;
+}
+
+body {
+  position: relative;
+  color: #333;
+  font-family: "nyt-cheltenham", georgia, "times new roman", times, serif;
+}
+
+
+/*********************************/
+/*  Shared Buttons, Links, Icons */
+/*********************************/
+
+a {
+  cursor: pointer;
+}
+
+button {
+  background-color: #fff;
+  border: none;
+  border-radius: 3px;
+  color: #333;
+  cursor: pointer;
+  font-family: "nyt-franklin", arial, helvetica, sans-serif;
+  font-size: 0.6875rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 0.8125rem;
+  margin: 0;
+  padding: 7px 9px;
+  position: relative;
+  text-transform: uppercase;
+  text-align: center;
+  transition: background-color 0.3s;
+  vertical-align: middle;
+}
+
+button:hover, button:active {
+  background-color: #f7f7f5;
+}
+
+i {
+  background-repeat: no-repeat;
+  display: inline-block;
+  font-style: normal;
+  line-height: 0;
+  vertical-align: middle;
+  width: 16px;
+  height: 16px;
+}
+
+.button-text {
+  clip: auto;
+  display: inline-block;
+  height: auto;
+  margin: 0 7px 0 9px;
+  overflow: visible;
+  position: static;
+  width: auto;
+  vertical-align: middle;
+}
+
+.sprite-icon {
+  background-image: url("https://a1.nyt.com/assets/article/20170314-141625/images/sprite/sprite-no-repeat.svg");
+}
+
+
+/*********************************/
+/*             Header            */
+/*********************************/
+
+header {
+  background: #fff;
+  border-color: #e2e2e2;
+  border-bottom: 1px solid #ccc;
+  height: 47px;
+  position: fixed;
+  text-align: center;
+  top: 0;
+  left: 0;
+  width: 100%; 
+}
+
+.quick-nav-button-group {
+  display: block;
+  float: left;
+  left: 15px;
+  position: relative;
+  margin-top: 8px;
+  z-index: 2;
+}
+
+.quick-nav-button-group:after {
+  clear: both;
+}
+
+#logo {
+  height: 26px;
+  width: 185px;
+  vertical-align: middle;
+  overflow: hidden;
+  position: relative;
+}
+
+.user-settings-button-group {
+  display: block;
+  float: right;
+  position: relative;
+  margin-top: 8px;
+  margin-right: 15px;
+  z-index: 2;
+}
+
+.user-settings-button-group:after {
+  clear: both;
+}
+
+.profile-button {
+  color: #4d7b9f;
+  text-transform: none;
+}
+
+.profile-button:active, .profile-button:hover {
+  color: #666;
+}
+
+.sections-button i {
+  background-position: -443px -214px;
+  margin-top: -1px;
+}
+
+.home-button i {
+  background-position: -51px -280px;
+  
+}
+
+.search-button i {
+  background-position: -357px -214px;
+  margin-top: -1px;
+}
+
+.caret-icon {
+  border-left: 4px inset transparent;
+  border-right: 4px inset transparent;
+  border-top: 4px inset transparent;
+  border-bottom: 4px inset transparent;
+  border-top: 4px solid #c7c7c7;
+  margin-top: 3px; 
+  width: 0;
+  height: 0;
+}
+
+.settings-button i {
+  background-position: -494px -214px;
+}
+
+.sections-button, .home-button, .search-button, .profile-button {
+  font-weight: 700;
+  height: 30px;
+}
+
+.sections-button {
+  border: 1px solid #e2e2e2;
+  box-shadow: 0 3px 2px 0 rgba(0,0,0,0.06), 
+              inset -1px -1px 1px 0 rgba(0,0,0,0.02);
+  border-bottom-color: #cecece;
+  margin-right: 6px;
+}
+
+#logo-wrapper {
+  position: absolute;
+  z-index: 1;
+  margin-top: 12px;
+  width: 100%;
+}
+
+#logo-link {
+  position: relative;
+  height: 26px;
+  width: 185px;
+}
+
+/*********************************/
+/* Other Articles Header Section */
+/*********************************/
+
+.header-other-articles {
+  box-shadow: 0 4px 4px rgba(0,0,0,0.06);
+  border-bottom: 1px solid #ccc;
+  display: block;
+  margin-top: 47px;
+  position: absolute;
+  height: 100px;
+  width: 100%;
+  overflow: scroll;
+}
+
+
+
+/*********************************/
+/*            Article            */
+/*********************************/
+
+
+
+
+/*********************************/
+/* Other Articles Footer Section */
+/*********************************/
+
+
+
+
+/*********************************/
+/*             Footer            */
+/*********************************/
